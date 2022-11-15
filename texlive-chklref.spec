@@ -30,15 +30,10 @@ mkdir -p %{buildroot}%{_datadir}
 cp -a texmf-dist %{buildroot}%{_datadir}
 
 %files
-%{_texmfdistdir}/texmf-dist/tex/latex/chklref
-%{_texmfdistdir}/texmf-dist/scripts/chklref
-%doc %{_texmfdistdir}/texmf-dist/doc/support/chklref
-%{_texmfdistdir}/texmf-dist
-%{_texmfdistdir}/texmf-dist/doc
-%doc %{_texmfdistdir}/texmf-dist/doc/man
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/chklref.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/chklref.1
+%{_texmfdistdir}/tex/latex/chklref
+%{_texmfdistdir}/scripts/chklref
+%doc %{_texmfdistdir}/doc/support/chklref
+%doc %{_texmfdistdir}/doc/man/man1/*
 
 %post -p %{_sbindir}/texlive.post
 
