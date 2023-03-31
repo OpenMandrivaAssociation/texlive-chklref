@@ -1,6 +1,6 @@
 Name:		texlive-chklref
 Version:	52649
-Release:	1
+Release:	2
 Summary:	Check for problems with labels in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chklref
